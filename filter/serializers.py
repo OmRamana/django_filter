@@ -7,8 +7,7 @@ class BookSerializer(serializers.ModelSerializer):
        model = Book
        fields = ['author', 'title']
 
-
 class AutherSerializer(serializers.ModelSerializer):
     class Meta:
         model = Author
-        fields = '__all__'
+        fields = '__all__' 
